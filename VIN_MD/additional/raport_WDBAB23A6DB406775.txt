@@ -1,0 +1,61 @@
+{
+   "stat":true,
+   "code":"1000",
+   "message":"Ok",
+   "vin":"WDBAB23A6DB406775",
+   "getDataForVinUs":{
+      "specs":{
+         "vin":"WDBAB23A6DB406775",
+         "id":"126991930087",
+         "date":"2014-06-09 13:06:59 PDT",
+         "specs":{
+            "VIN":"WDBAB23A6DB406775",
+            "Year":"1983",
+            "Make":"MERCEDES-BENZ",
+            "Model":"240D",
+            "Trim Level":"Base",
+            "Engine":"2.4L L4 TURBO DIESEL",
+            "Style":"SEDAN 4-DR",
+            "Made In":"GERMANY",
+            "Steering Type":"No data",
+            "Anti-Brake System":"No data",
+            "Tank Size":"No data",
+            "Overall Height":"No data",
+            "Overall Length":"No data",
+            "Overall Width":"No data",
+            "Standard Seating":"No data",
+            "Optional Seating":"No data",
+            "Highway Mileage":"No data",
+            "City Mileage":"No data"
+         },
+         "jsi":[
+
+         ],
+         "checks":[
+
+         ],
+         "titles":[
+            {
+               "vin":"WDBAB23A6DB406775",
+               "date":"04\/26\/1999",
+               "state":"VA",
+               "meter":"188446",
+               "meterUnit":"M",
+               "current":"1"
+            }
+         ],
+         "mode":"null",
+         "nvs":[
+            {
+               "recordType":"Ebay",
+               "vin":"WDBAB23A6DB406775",
+               "itemNumber":"260385057522",
+               "auctionDate":"2009-03-29"
+            }
+         ],
+         "clean":true,
+         "success":true,
+         "error":""
+      }
+   }
+}

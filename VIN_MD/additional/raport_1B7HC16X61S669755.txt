@@ -1,0 +1,68 @@
+{
+   "stat":true,
+   "code":"1000",
+   "message":"Ok",
+   "vin":"1B7HC16X61S669755",
+   "getDataForVinUs":{
+      "specs":{
+         "vin":"1B7HC16X61S669755",
+         "id":"642683918898",
+         "date":"2014-06-09 13:06:08 PDT",
+         "specs":{
+            "VIN":"1B7HC16X61S669755",
+            "Year":"2001",
+            "Make":"DODGE",
+            "Model":"RAM 1500",
+            "Trim Level":"WS Reg. Cab Short Bed 2WD",
+            "Engine":"3.9L V6 OHV 12V",
+            "Style":"REGULAR CAB PICKUP 2-DR",
+            "Made In":"UNITED STATES",
+            "Steering Type":"Recirc",
+            "Anti-Brake System":"2-Wheel ABS | 4-Wheel ABS",
+            "Tank Size":"26.00 gallon",
+            "Overall Height":"71.90 in.",
+            "Overall Length":"204.10 in.",
+            "Overall Width":"79.40 in.",
+            "Standard Seating":"3",
+            "Optional Seating":"No data",
+            "Highway Mileage":"20 - 21 miles\/gallon",
+            "City Mileage":"15 miles\/gallon"
+         },
+         "jsi":[
+
+         ],
+         "checks":[
+
+         ],
+         "titles":[
+            {
+               "vin":"1B7HC16X61S669755",
+               "date":"09\/18\/2009",
+               "state":"FL",
+               "meter":"190000",
+               "meterUnit":"M",
+               "current":"1"
+            },
+            {
+               "vin":"1B7HC16X61S669755",
+               "date":"03\/27\/2001",
+               "state":"FL",
+               "meter":"2207",
+               "meterUnit":"M"
+            }
+         ],
+         "mode":"null",
+         "nvs":[
+            {
+               "recordType":"Export",
+               "vin":"1B7HC16X61S669755",
+               "exportDate":"2011-03-03",
+               "state":"FL"
+            }
+         ],
+         "clean":true,
+         "success":true,
+         "error":""
+      }
+   }
+}

@@ -1,0 +1,63 @@
+#s5_rss, #s5_facebook, #s5_google, #s5_twitter {
+margin-top:7px;
+}
+
+#s5_top_bar {
+padding-bottom:2px;
+}
+
+#s5_pos_custom_1 {
+margin-top:-3px;
+}
+
+#s5_social_bar {
+border:none;
+}
+
+.s5_am_innermenu {
+display:inline-block;
+}
+
+#s5_nav li {
+-webkit-border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+border-radius: 0px 0px 0px 0px;
+}
+
+#s5_top_row2_wrap, #s5_top_row3_wrap, #s5_bottom_row1_wrap, #s5_bottom_row2_wrap, #s5_columns_wrap, #s5_center_area_inner {
+box-shadow:0 0px 5px #B1B1B1;
+}
+
+#s5_logregtm, #s5_loginreg {
+background:none;
+padding-left:0px;
+padding-right:0px;
+}
+
+.s5_row_shadow #s5_top_row1_inner {
+background:url(../images/ie7/s5_row_shadow.jpg) repeat-x top left;
+zoom:1;
+}
+
+.s5_mod_h3_outer {
+display:block;
+overflow:hidden;
+}
+
+.s5_mod_h3 {
+width:100%;
+}
+
+.image_wrap img {
+width:43% !important;
+}
+
+#s5_bottom_row3_wrap {
+margin-left:0px;
+margin-right:0px;
+}
+
+#s5_bottom_row3_wrap .module_round_box_outer {
+margin-left:6px;
+margin-right:6px;
+}

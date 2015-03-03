@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.0" type="plugin" group="content">
+	<name>Shape 5 MP3 Player</name>
+	<author>Shape5.com - modified from 1pixeloutplayer duvien.com</author>
+	<creationDate>October 2009</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>www.shape5.com</authorUrl>
+	<version>2.0</version>
+	<description>S5MP3</description>
+		<files>
+			<filename plugin="s5_mp3_player">s5_mp3_player.php</filename>
+			<folder>s5_mp3_player</folder>
+		</files>
+		<languages folder="language">
+			<language tag="en-GB">en-GB.plg_content_s5_mp3_player.ini</language>
+		</languages>
+		<config>
+			<fields name="params">
+				<fieldset name="basic">
+					<field name="spacer00" type="spacer" label="&lt;span style=&quot;display:block;font-weight:bold&quot;&gt;Be sure to read the full description on the right side of this page for setup instructions and information about the fieldeters below.&lt;/span&gt;"  />
+					<field name="spacer01" type="spacer" hr="true"  />
+					<field name="repeat" type="text" default="0" label="Repeat Count" description="" />
+					<field name="width" type="text" default="380" label="Width" description="" />										<field name="fluidwidth" type="radio" default="1" label="Fluid Width?" description="Enabling this feature will set the player to 100% width of the available area and override the above parameter.">						<option value="0">no</option>						<option value="1">yes</option>					</field>
+					<field name="height" type="text" default="26" label="Height" description="" />
+					<field name="margint" type="text" default="10" label="Margin Top" description="" />
+					<field name="marginb" type="text" default="0" label="Margin Bottom" description="" />
+					<field name="marginl" type="text" default="0" label="Margin Left" description="" />
+					<field name="marginr" type="text" default="0" label="Margin Right" description="" />
+					<field name="defaultpath" type="text" default="" label="Default Path" description="" />
+															<field name="spacer100" type="spacer" label="&lt;span style=&quot;display:block;font-weight:bold&quot;&gt;Mobile and Apple Settings&lt;/span&gt;"  />					<field name="spacer110" type="spacer"  hr="true" />										<field name="mobilelink" type="radio" default="1" label="Enable Mobile Hyperlink?" description="Enabling this feature will cause the player to disappear at a specified screen width and a hyperlink will show in its place. The link will simply play in the device's default audio player. Keep in mind that this link is a direct link to the mp3 file itself, and the user may download the file even if download is disabled.">						<option value="0">no</option>						<option value="1">yes</option>					</field>										<field name="applelink" type="radio" default="1" label="Enable Apple Product Hyperlink?" description="Apple products such as the iPhone or iPad do not natively support flash, which this player is built off of. Enabling this feature will show a hyperlink in its place on Apple products. The link will simply play in the device's default audio player. The text used in the Mobile Hyperlink Text field below will be used. Without this featured enabled no player will show on an Apple product. Keep in mind that this link is a direct link to the mp3 file itself, and the user may download the file even if download is disabled.">						<option value="0">no</option>						<option value="1">yes</option>					</field>										<field name="mobilelinktext" type="text" default="Click Here To Listen" label="Hyperlink Text" description="This is the text that will show for the hyperlinks mentioned in the two options above." />											<field name="mobilelinkwidth" type="text" default="579" label="Hyperlink Screen Width" description="Specify screen width that you would like the hyperlink to show if the Mobile Hyperlink feature is enabled. 579 and lower will typically work for all mobile devices." />										<field name="mobilelinkfontsize" type="text" default="10" label="Hyperlink Font Size" description="" />										<field name="mobilelinkfontcolor" type="text" default="333333" label="Hyperlink Font Color" description="" />										<field name="mobilelinkfontweight" type="radio" default="normal" label="Hyperlink Font Weight" description="">						<option value="normal">normal</option>						<option value="bold">bold</option>					</field>										<field name="mobilelinkfontdecoration" type="radio" default="none" label="Hyperlink Font Underline" description="">						<option value="none">none</option>						<option value="underline">underline</option>					</field>										
+					<field name="spacer10" type="spacer" label="&lt;span style=&quot;display:block;font-weight:bold&quot;&gt;Color Settings&lt;/span&gt;"  />
+					<field name="spacer11" type="spacer"  hr="true" />
+					<field name="color_mcPauseLabel" type="text" default="FFFFFF" label="Pause Icon" description="" />	
+					<field name="color_mcPlayLabel" type="text" default="FFFFFF" label="Play Icon" description="" />
+					<field name="color_mcPlayBtn" type="text" default="333333" label="Play and Pause Button Background" description="" />
+					<field name="colorhover_mcPlayBtn" type="text" default="817777" label="Play and Pause Button Background Hover" description="" />	
+					<field name="color_mcSeparationArrow1" type="text" default="FFFFFF" label="Separation Arrow to the Right of Play and Pause" description="" />
+					<field name="color_mcMiddle-mcBorder" type="text" default="B2B2B2" label="Streaming Bar Border" description="" />
+					<field name="color_mcMiddle-mcBg" type="text" default="B2B2B2" label="Streaming Bar Background" description="" />
+					<field name="color_mcMiddle-mcProgress" type="text" default="FFFFFF" label="Streamed Bar Background" description="" />
+					<field name="color_mcMiddle-mcSlider" type="text" default="CBF7FB" label="Progress Bar Background" description="" />
+					<field name="textcolor_fmtTime" type="text" default="000000" label="Time" description="" />
+					<field name="textcolor_fmtSongName" type="text" default="000000" label="Song Name" description="" />
+					<field name="color_mcMiddleBg" type="text" default="E4E4E4" label="Middle Bar Background" description="" />	
+					<field name="color_mcSoundControl-mcSoundBack" type="text" default="FFFFFF" label="Sound Bars Inactive" description="" />
+					<field name="color_mcSoundControl-mcSoundSlider" type="text" default="333333" label="Sound Bars Active" description="" />
+					<field name="color_mcMiddleBg2" type="text" default="AFAEAE" label="Sound Controls Background" description="" />
+					<field name="color_mcSeparationArrow2" type="text" default="FFFFFF" label="Separation Arrow to the Left of the Download Button" description="" />
+					<field name="spacer30" type="spacer" label="&lt;span style=&quot;display:block;font-weight:bold&quot;&gt;Download Settings - Note downloads will only work when the mp3 resides on the same site as the S5 MP3 plugin.&lt;/span&gt;"  />
+					<field name="spacer31" type="spacer" hr="true"  />
+					<field name="allowDownload" type="radio" default="1" label="Show Download Button?" description="">
+						<option value="0">no</option>
+						<option value="1">yes</option>
+					</field>
+					<field name="textcolor_fmtDownload" type="text" default="FFFFFF" label="Download Button Font" description="" />
+					<field name="color_mcDownloadBtn" type="text" default="333333" label="Download Button Background" description="" />
+					<field name="colorhover_mcDownloadBtn" type="text" default="817777" label="Download Button Background Hover" description="" />
+					<field name="text_txtDownload" type="text" default="Download" label="Download Button Text" description="" />
+					<field name="downloadBarSpace" type="text" default="8" label="Margin Between Player and Download Bar" description="" />
+					<field name="downloadBarHeight" type="text" default="21" label="Download Bar Height" description="" />
+					<field name="text_txtDownloadProgress_downloading" type="text" default="Downloading File..." label="Downloading Text" description="" />
+					<field name="text_txtDownloadProgress_complete" type="text" default="Download Complete!" label="Downloaded Text" description="" />
+					<field name="color_mcDownloadProgress-mcBack" type="text" default="E4E4E4" label="Download Bar Background" description="" />
+					<field name="color_mcDownloadProgress-mcBorder" type="text" default="B2B2B2" label="Download Bar Border" description="" />
+					<field name="color_mcDownloadProgress-mcProgress" type="text" default="CBF7FB" label="Download Bar Percentage Indicator Bar" description="" />
+					<field name="textcolor_fmtDownloadProgress" type="text" default="000000" label="Download Bar Text Color" description="" />
+				</fieldset>
+			</fields>
+	</config>
+</extension>

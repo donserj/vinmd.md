@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<specific>
+	<version>2.2</version> 
+    <languages folder="xml/language">
+		<language tag="en-GB">en-GB/en-GB.tpl_soul_search.ini</language>
+	</languages>
+	<config>
+		<fields>
+            <fieldset name="s50" label="TPL_FIELD_TS_LABEL">
+                <field name="s51spacer_notice" label="&lt;span style=&quot;display:block;&quot;&gt;Make sure to hover your mouse over each title in this column for a full description of what each field does.&lt;/span&gt;" type="spacer" />
+				
+				<field name="xml_s5_highlight1" type="text:6:6" default="A83000" label="TPL_HIGHLIGHT1_LABEL" description="TPL_HIGHLIGHT1_DESC" />
+				
+				<field name="xml_s5_highlight2" type="text:6:6" default="A83000" label="TPL_HIGHLIGHT2_LABEL" description="TPL_HIGHLIGHT2_DESC" />
+				
+				<field name="xml_s5_highlight3" type="text:6:6" default="FAA234" label="TPL_HIGHLIGHT3_LABEL" description="TPL_HIGHLIGHT3_DESC" />
+				
+				<field name="xml_s5_highlight4" type="text:6:6" default="FBC27B" label="TPL_HIGHLIGHT3_LABEL" description="TPL_HIGHLIGHT3_DESC" />
+				
+				<field name="xml_s5_h3_highlight" type="select:list" default="yes" label="TPL_HIGHLIGHTMODULES_LABEL" description="TPL_HIGHLIGHTMODULES_DESC">
+					<option value="yes">TPL_HIGHLIGHTMODULES_01</option>
+					<option value="no">TPL_HIGHLIGHTMODULES_02</option>
+				</field>
+				
+				<field name="xml_s5_fonts_highlight" type="select:list" default="Poly" label="TPL_FONTS_HIGHLIGHT_LABEL" description="TPL_FONTS_HIGHLIGHT_DESC"></field>
+				
+				<field name="xml_s5_fonts_highlight_style" type="text" label="TPL_FIELD_FONTSTYLE_HIGHLIGHT_LABEL" description="TPL_FIELD_FONTSTYLE_HIGHLIGHT_DESC" />
+                
+				<field name="xml_s5_top_left" type="text" default="" label="TPL_TOPLEFT_LABEL" description="TPL_TOPLEFT_DESC" />
+				
+				<field name="xml_s5_top_right" type="text" default="" label="TPL_TOPRIGHT_LABEL" description="TPL_TOPRIGHT_DESC" />
+				
+				<field name="xml_s5_facebook" type="text" default="" label="TPL_FACEBOOK_LABEL" description="TPL_FACEBOOK_DESC" />
+				
+				<field name="xml_s5_twitter" type="text" default="" label="TPL_TWITTER_LABEL" description="TPL_TWITTER_DESC" />
+				
+				<field name="xml_s5_google" type="text" default="" label="TPL_GOOGLE_LABEL" description="TPL_GOOGLE_DESC" />
+				
+				<field name="xml_s5_rss" type="text" default="" label="TPL_RSS_LABEL" description="TPL_RSS_DESC" />
+				
+				<field name="xml_s5_small_menu" type="select:list" default="no" label="TPL_SMALL_MENU_LABEL" description="TPL_SMALL_MENU_DESC">
+					<option value="yes">TPL_SMALL_MENU_01</option>
+					<option value="no">TPL_SMALL_MENU_02</option>
+				</field>
+				
+				<field name="xml_s5_footer_logo" type="select:list" default="yes" label="TPL_FOOTER_LOGO_LABEL" description="TPL_FOOTER_LOGO_DESC">
+					<option value="yes">TPL_FOOTER_LOGO_01</option>
+					<option value="no">TPL_FOOTER_LOGO_02</option>
+				</field>
+				
+				<field name="xml_s5_top_row1_shadow" type="select:list" default="yes" label="TPL_ROW_SHADOW_LABEL" description="TPL_ROW_SHADOW_DESC">
+					<option value="yes">TPL_ROW_SHADOW_01</option>
+					<option value="no">TPL_ROW_SHADOW_02</option>
+				</field>
+				
+            </fieldset>
+		</fields>
+	</config>	
+</specific>

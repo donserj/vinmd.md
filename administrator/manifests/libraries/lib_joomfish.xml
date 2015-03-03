@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="2.5.0">
+    <name>Joom!Fish Library</name>
+    <libraryname>joomfish</libraryname>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<author>Joom!Fish Project</author>
+	<authorEmail>support@joomfish.net</authorEmail>
+	<authorUrl>http://www.joomfish.net</authorUrl>
+	<creationDate>2013-02-03</creationDate>
+	<copyright>2003 - 2013, Think Network GmbH, Konstanz</copyright>
+	<version>2.5.1</version>
+    <description> 
+    Base Joomfish classes
+    </description>
+    
+    <files>
+    	<file>joomfish.php</file>
+    	<file>manager.php</file>
+        <folder>cache</folder>
+        <folder>translatable</folder>
+        <folder>contentelement</folder>
+        <folder>translationfilter</folder>
+        <folder>route</folder>
+        <folder>form</folder>
+        <folder>translateparams</folder>
+    </files>
+</extension>

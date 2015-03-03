@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="content">
+	<name>RD Add PHP</name>
+	<author>Robert Deutz</author>
+	<creationDate>November 2011</creationDate>
+	<copyright>2011 Run Digital</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorUrl>www.run-digital.com</authorUrl>
+	<version>5.0</version>
+	<description>{rdaddphp file=php/test.php} This plugin include a php-file in a Content-Item. Ported by Joomla 1.7 JoB. site - http://slovu.net/</description>
+	<files>
+		<filename plugin="rd_addphp">rd_addphp.php</filename>
+		<filename>rd_addphp.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+		</fields>
+	</config>
+</extension>

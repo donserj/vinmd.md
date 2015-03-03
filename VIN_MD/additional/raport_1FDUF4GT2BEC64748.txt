@@ -1,0 +1,61 @@
+{
+   "stat":true,
+   "code":"1000",
+   "message":"Ok",
+   "vin":"1FDUF4GT2BEC64748",
+   "getDataForVinUs":{
+      "specs":{
+         "vin":"1FDUF4GT2BEC64748",
+         "id":"896886867813",
+         "date":"2014-06-09 13:06:47 PDT",
+         "specs":{
+            "VIN":"1FDUF4GT2BEC64748",
+            "Year":"2011",
+            "Make":"Ford",
+            "Model":"F-450 SD",
+            "Trim Level":"Regular Cab DRW 2WD",
+            "Engine":"6.7L V8 OHV 16V DIESEL",
+            "Style":"CONVENTIONAL CAB",
+            "Made In":"UNITED STATES",
+            "Steering Type":"No data",
+            "Anti-Brake System":"No data",
+            "Tank Size":"No data",
+            "Overall Height":"No data",
+            "Overall Length":"No data",
+            "Overall Width":"No data",
+            "Standard Seating":"No data",
+            "Optional Seating":"No data",
+            "Highway Mileage":"No data",
+            "City Mileage":"No data"
+         },
+         "jsi":[
+
+         ],
+         "checks":[
+
+         ],
+         "titles":[
+            {
+               "vin":"1FDUF4GT2BEC64748",
+               "date":"08\/02\/2011",
+               "state":"TX",
+               "meter":"98",
+               "meterUnit":"M",
+               "current":"1"
+            }
+         ],
+         "mode":"null",
+         "nvs":[
+            {
+               "recordType":"Lien",
+               "vin":"1FDUF4GT2BEC64748",
+               "lienholder":"Ford",
+               "lienDate":"2011-06-08"
+            }
+         ],
+         "clean":true,
+         "success":true,
+         "error":""
+      }
+   }
+}

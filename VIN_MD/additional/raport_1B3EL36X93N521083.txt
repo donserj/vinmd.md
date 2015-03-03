@@ -1,0 +1,87 @@
+{
+   "stat":true,
+   "code":"1000",
+   "message":"Ok",
+   "vin":"1B3EL36X93N521083",
+   "getDataForVinUs":{
+      "specs":{
+         "vin":"1B3EL36X93N521083",
+         "id":"378801894545",
+         "date":"2014-06-09 13:06:55 PDT",
+         "specs":{
+            "VIN":"1B3EL36X93N521083",
+            "Year":"2003",
+            "Make":"DODGE",
+            "Model":"STRATUS",
+            "Trim Level":"SE Sedan",
+            "Engine":"2.4L L4 DOHC 16V",
+            "Style":"SEDAN 4-DR",
+            "Made In":"UNITED STATES",
+            "Steering Type":"R&P",
+            "Anti-Brake System":"Non-ABS | 4-Wheel ABS",
+            "Tank Size":"16.00 gallon",
+            "Overall Height":"54.90 in.",
+            "Overall Length":"191.20 in.",
+            "Overall Width":"70.60 in.",
+            "Standard Seating":"5",
+            "Optional Seating":"No data",
+            "Highway Mileage":"28 miles\/gallon",
+            "City Mileage":"21 miles\/gallon"
+         },
+         "jsi":[
+            {
+               "date":"12\/9\/2010",
+               "recordType":"Junk And Salvage",
+               "branderName":"Rodney's Repair & Towing",
+               "branderCity":"LAKE PLACID",
+               "branderState":"FL",
+               "branderPhone":"8634653010",
+               "branderEmail":"",
+               "vehicleDisposition":"CRUSH",
+               "intendedForExport":"N"
+            }
+         ],
+         "checks":[
+            {
+               "branderType":"State",
+               "branderCode":"FL",
+               "branderName":"FLORIDA",
+               "brandCode":"08",
+               "date":"12\/09\/2010",
+               "entity":"",
+               "insuranceName":"",
+               "disposition":""
+            }
+         ],
+         "titles":[
+            {
+               "vin":"1B3EL36X93N521083",
+               "date":"12\/09\/2010",
+               "state":"FL",
+               "meter":"999999",
+               "meterUnit":"M",
+               "current":"1"
+            },
+            {
+               "vin":"1B3EL36X93N521083",
+               "date":"08\/29\/2002",
+               "state":"FL",
+               "meter":"10",
+               "meterUnit":"M"
+            }
+         ],
+         "mode":"null",
+         "nvs":[
+            {
+               "recordType":"Impound",
+               "vin":"1B3EL36X93N521083",
+               "impoundDate":"2009-04-20",
+               "state":"FL"
+            }
+         ],
+         "clean":false,
+         "success":true,
+         "error":""
+      }
+   }
+}

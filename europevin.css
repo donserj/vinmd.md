@@ -1,0 +1,86 @@
+
+#check_vin{
+    width: 500px;
+    height: 350px;
+    border: 0px solid #c3bec4;
+    border-radius: 5px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+}
+
+#check_vin #check_vin_top{
+    background: -webkit-linear-gradient(#ccc, #FFF);
+    background: -o-linear-gradient(#ccc, #FFF);
+    background: -moz-linear-gradient(#ccc, #FFF);
+    background: linear-gradient(#ccc, #FFF);
+    height: 30px;
+    border-bottom: 1px solid #c3bec4;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+#check_vin #check_vin_bottom{
+    background: -webkit-linear-gradient(#FFF, #CCC);
+    background: -o-linear-gradient(#FFF, #CCC);
+    background: -moz-linear-gradient(#FFF, #CCC);
+    background: linear-gradient(#FFF, #CCC);
+    height: 304px;
+}
+
+#check_vin #check_vin_bottom #check_vin_photo{
+    height: 180px;
+}
+
+#check_vin #check_vin_bottom #check_vin_loader img{
+    height: 20px;
+    border-radius: 5px;
+    margin: 16px 0px 0px 90px;
+}
+
+#check_vin #check_vin_bottom #check_vin_number{
+    height: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#check_vin #check_vin_bottom #check_vin_loader{
+    height: 50px;
+}
+
+#check_vin div{
+    border: 0px solid #0000ff;
+
+}
+.res{
+    border-collapse: collapse;
+}
+.res td{
+    padding: 3px;
+    border: 1px solid #000000;
+    background: #eeeed1;
+    width: 200px;
+}
+
+.container{
+    border: 0px solid;
+    width: 1275px;
+    margin: 0px auto;
+}
+
+#check_vin_table{
+    margin: 50px auto;
+    width: 770px;
+}
+#form_table_pay td{
+    padding: 5px;
+}
+
+#form_table_pay{
+    width: 500px;
+}
